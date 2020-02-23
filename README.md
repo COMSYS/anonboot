@@ -107,6 +107,6 @@ Particularly, we provide evaluation scripts for the following measurements:
 
 ## Acknowledgements
 
-This work has been funded by the German Federal Ministry of Education and Research (BMBF) under funding reference number [-16DHLQ013-].
+This work has been funded by the German Federal Ministry of Education and Research (BMBF) under funding reference number 16DHLQ013.
 The responsibility for the content of this publication lies with the authors.
 Furthermore, the authors thank Jöran Wiechert for his technical help.
