@@ -1,0 +1,17 @@
+.data*
+*.tmp
+.cache
+*.tar.gz
+__pycache__
+bitcoin-0.17.1/
+.DS_Store
+.#*#
+.data/
+*.log
+.idea
+state/
+peers/
+*.pdf
+eval/
+.swp
+*.swp
