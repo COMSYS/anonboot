@@ -8,6 +8,13 @@ This implementation shows how AnonBoot can operate even on simple public blockch
 
 *  Roman Matzutt, Jan Pennekamp, Erik Buchholz, Klaus Wehrle: Utilizing Public Blockchains for the Sybil-Resistant Bootstrapping of Distributed Anonymity Services. In 15th ACM ASIA Conference on Computer and Communications Security (ACM ASIACCS’20), ACM, 2020.
 
+## Acknowledgements
+
+This work has been funded by the German Federal Ministry of Education and Research (BMBF) under funding reference numbers 16DHLQ013 and Z31 BMBF Digital Campus.
+The funding under reference number Z31 BMBF Digital Campus has been provided by the German Academic Exchange Service (DAAD).
+The responsibility for the content of this publication lies with the authors.
+The authors thank Jöran Wiechert for his support with the prototype.
+
 ## Dependencies
 
 * [`python-bitcoinrpc`](http://www.github.com/jgarzik/python-bitcoinrpc) (GNU Lesser General Public License v2.1)
@@ -104,10 +111,3 @@ Particularly, we provide evaluation scripts for the following measurements:
 * `scripts/sec_evals.sh`: Simulate peer election with increasing shares of privacy peers being controlled by an adversary and empirically assess his success chances to infiltrate bootstrapped anonymity services.
 * `scripts/adsize_evals.sh`: For increasing capacity values, evaluate how many Bitcoin blocks it takes to hold up to 10k peer advertisements. (requires running `bitcoind`)
 * `scripts/user_req_evals.sh`: [unused] Like `adsize_evals.sh`, but for users' service requests. (requires running `bitcoind`)
-
-## Acknowledgements
-
-This work has been funded by the German Federal Ministry of Education and Research (BMBF) under funding reference numbers 16DHLQ013 and Z31 BMBF Digital Campus.
-The funding under reference number Z31 BMBF Digital Campus has been provided by the German Academic Exchange Service (DAAD).
-The responsibility for the content of this publication lies with the authors.
-The authors thank Jöran Wiechert for his support with the prototype.
