@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you want to cite this proof-of-concept implementation alongside the relevant publications, please do so as follows."
+authors:
+- family-names: "Matzutt"
+  given-names: "Roman"
+  orcid: "https://orcid.org/0000-0002-4263-5317"
+- family-names: "Pennekamp"
+  given-names: "Jan"
+  orcid: "https://orcid.org/0000-0003-0398-6904"
+- family-names: "Buchholz"
+  given-names: "Erik"
+  orcid: "https://orcid.org/0000-0001-9962-5665"
+- family-names: "Wehrle"
+  given-names: "Klaus"
+  orcid: "https://orcid.org/0000-0001-7252-4186"
+title: "AnonBoot - Utilizing Public Blockchains for the Sybil-Resistant Bootstrapping of Distributed Anonymity Services"
+version: 1.0.0
+date-released: 2020-04-13
+url: "https://github.com/COMSYS/coinprune"
